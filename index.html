@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hairdresser</title>
+     <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+     <!-- header -->
+    <section class="header">
+        <a href="#" class="logo"> Hair dresser</a>
+
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+
+
+            <a href="#home"> <span> home </span></a>
+            <a href="#about">about</a>
+            <a href="#services"> services</a>
+            <a href="styles.html">styles</a>
+            <a href="#pricing">pricing</a>
+            <a href="blogs.html">blogs</a>
+            <a href="#visit">book a visit</a>
+            <a href="#review">review</a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+
+
+
+
+
+     <!-- header -->
+
+      <!-- home -->
+      <section class="home" id="home">
+         
+
+
+
+        <div class="slider">
+        
+            <div class="slides">
+    
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+    
+                <div class="slide first">
+                    <img src="./img/women.jpeg" alt="">
+                </div>
+    
+                <div class="slide">
+                    <img src="./img/slide1.jpg" alt="">
+                </div>
+    
+                <div class="slide">
+                    <img src="./img/slid2.jpg" alt="">
+                </div>
+    
+                <div class="slide">
+                    <img src="./img/nail3.jpg" alt="">
+                </div>
+    
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+               <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+               </div>
+        </div>
+    
+            <script type="text/javascript">
+                var counter=1;
+                setInterval(function(){
+                    document.getElementById('radio'+ counter).checked = true;
+                    counter++;
+                    if(counter > 4){
+                        counter = 1;
+    
+                    }
+                    
+                }, 5000);
+            </script>          
+    
+        <div class="content">
+            <span>welcome</span>
+            <h3>we style <br> you slay.</h3>
+        </div>
+      </section>
+
+
+      <!-- home -->
+
+      <!-- about us -->
+       <section class="about" id="about">
+        <h3 class="heading">about us</h3>
+        <div class="row">
+            <div class="image">
+                <img src="/img/blac1.jpg" >
+            </div>
+            <div class="content">
+                <h3 class="title">we are a group of stylists</h3>
+                <p>We are dedicated to beautifying people. We are passionate about providing people with beauty services making our services top notch and hard not to be pleased with.</p>
+                 <p>Beauty By Tee has been in the business for quite a while and we are well versed in the art of pleasing customers and rendering top notch services. You can make a visit to erase all doubts.</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <img src="img/about-icon-1.png" alt="">
+                    <h3>professional tools</h3>
+                </div>
+                    <div class="icons">
+                        <img src="img/about-icon-2.png" alt="">
+                        <h3>quality tools</h3>
+                    </div>
+                        <div class="icons">
+                            <img src="img/about-icon-3.png" alt="">
+                            <h3>hair washing</h3>
+                        </div>
+                        </div>
+            </div>
+        </div>
+       </section>
+
+
+
+
+      <!-- about us -->
+
+
+      <!-- services -->
+         <section class="services" id="services">
+            <h1 class="heading">premium services</h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="img/35.jpg" alt="">
+                    <div class="content">
+                        <h3>hair styling</h3>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/wed.jpg" alt="">
+                    <div class="content">
+                        <h3>wedding services</h3>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/blac2.jpg" alt="">
+                    <div class="content">
+                        <h3>makeup and gele</h3>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/tint.jpg" alt="">
+                    <div class="content">
+                        <h3>hair tinting</h3>
+                    </div>
+                </div>
+            </div>
+
+         </section>
+      <!-- services -->
+      <!-- styles -->
+       <section class="styles" id="styles">
+        <h1 class="heading">choose your styles</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                <img src="img/bii.jpg" alt="" class="image1">
+                </div>
+                <div class="content">
+                    <h3 class="title">Braided Weaving</h3>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> -->
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                <img src="img/black4.jpg" alt="" class="image1">
+                </div>
+                <div class="content">
+                    <h3 class="title">Ponytail</h3>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> -->
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                <img src="img/braids.jpg" alt="" class="image1">
+                </div>
+                <div class="content">
+                    <h3 class="title">Braids</h3>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> -->
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                <img src="img/gele.jpg" alt="" class="image1">
+                </div>
+                <div class="content">
+                    <h3 class="title">Round Gele</h3>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> -->
+                </div>
+            </div>
+            <a href="styles.html"> <button>View more</button></a>
+        </div>
+       </section>
+      <!-- styles -->
+
+      <!-- pricing -->
+          <section class="pricing" id="pricing">
+            <h1 class="heading">offer and pricing</h1>
+            <div class="box-container">
+                <div class="box">
+                    <h3 class="title">basic</h3>
+                    <div class="price">
+                        <span class="currency"> ₦</span>
+                        <span class="amount">10</span>
+                    </div>
+                    <ul>
+                        <li> <i class="fas fa-check"></i> Hair Tinting</li>
+                        <li> <i class="fas fa-check"></i> Makeup </li>
+                        <li> <i class="fas fa-check"></i> Gele </li>
+                        <li> <i class="fas fa-check"></i> Braiding </li>
+                    </ul>
+                    <a href="+2348108624615"> <button>book a visit</button></a>
+                </div>
+
+                <div class="box">
+                    <h3 class="title">standard</h3>
+                    <div class="price">
+                        <span class="currency"> ₦</span>
+                        <span class="amount">20</span>
+                    </div>
+                    <ul>
+                        <li> <i class="fas fa-check"></i> Hair Tinting</li>
+                        <li> <i class="fas fa-check"></i> Makeup </li>
+                        <li> <i class="fas fa-check"></i> Gele </li>
+                        <li> <i class="fas fa-check"></i> Braiding </li>
+                    </ul>
+                    <a href="+2348108624615"> <button>book a visit</button></a>
+                </div>
+
+                <div class="box">
+                    <h3 class="title">premium</h3>
+                    <div class="price">
+                        <span class="currency"> ₦</span>
+                        <span class="amount">30</span>
+                    </div>
+                    <ul>
+                        <li> <i class="fas fa-check"></i> Hair Tinting </li>
+                        <li> <i class="fas fa-check"></i> Makeup </li>
+                        <li> <i class="fas fa-check"></i> Gele </li>
+                        <li> <i class="fas fa-check"></i> Braiding </li>
+                    </ul>
+                    <a href="+2348108624615"> <button>book a visit</button></a>
+                </div>
+            </div>
+          </section>
+      <!-- pricing -->
+          
+
+      <!-- blogs -->
+        <section class="blogs" id="blogs">
+           <h3 class="heading">our blogs</h3>
+           <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/blog1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="" class="title"> styling hair services</a>
+                    <span> by admin/ 4th May, 2023</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel excepturi nemo debitis iure eos, quia odit quis ut explicabo! Quo fugit dolores quasi beatae eius sit vero asperiores quos natus.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/blog2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="" class="title"> styling hair services</a>
+                    <span> by admin/ 4th May, 2023</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel excepturi nemo debitis iure eos, quia odit quis ut explicabo! Quo fugit dolores quasi beatae eius sit vero asperiores quos natus.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="img/blog3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="" class="title"> styling hair services</a>
+                    <span> by admin/ 4th May, 2023</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel excepturi nemo debitis iure eos, quia odit quis ut explicabo! Quo fugit dolores quasi beatae eius sit vero asperiores quos natus.</p>
+                </div>
+            </div>
+           </div>
+        </section>
+
+      <!-- blogs -->
+
+      <!-- book a visit -->
+       <section class="visit" id="visit">
+        <h1 class="heading">book a visit</h1>
+
+        <div class="row">
+
+            <form action="">
+                <h3>book your first visit today</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="Your name">
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" placeholder="Your Email">
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" placeholder="Subject">
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" placeholder="Your message">
+                </div>
+
+                <input type="submit" value="Send a Message" class="btn">
+                <a href="+234 8108624615"></a>
+            </form>
+            <div class="image">
+                <img src="img/contact.png" alt="">
+            </div>
+        </div>
+       </section>
+
+      <!-- book a visit -->
+
+      <!-- reviews -->
+     <section class="review" id="review">
+       <h1 class="heading">Customer's reviews</h1>
+       <div class="box-container">
+        <div class="box">
+            <img src="img/quote-img.png" alt="quote">
+            <p> I have a friend that works at the salon and as a result of that i referred my female friends that were so pleased with their services.</p>
+            <div class="girl"><img class="boy" src="img/40744233335_status_8a5829c3ed9f431ea21b31dc93f1a186.jpg" alt=""></div>
+            <h3>Ajayi Joseph</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <!-- <div class="box">
+            <img src="img/quote-img.png" alt="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem soluta rem obcaecati quos ducimus nulla illo repellat eum quisquam quod dolor autem fugiat, necessitatibus, voluptate, saepe debitis possimus iste? Mo</p>
+            <div class="main-container">
+                <img src="./img/IMG-20221105-WA0005.jpg" class="image">
+                <div class="overlay">
+                    <h1 class="big">same text</h1>
+                    <h2 class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque reprehenderit quia dolorum doloribus, nihil dolor fugiat suscipit ipsa inventore dolore sed similique aspernatur incidunt commodi consequatur, deserunt nemo distinctio dolores.</h2>
+                </div>
+            </div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div> -->
+
+        <div class="box">
+            <img  src="img/quote-img.png" alt="quote">
+            <p> My whole family of 5 girls patronizes this Salon and i can confidently say they're the best.</p>
+            <div class="girl"><img class="boy" src="img/IMG-20221105-WA0005.jpg" alt=""></div>
+            <h3>Obasi Christabel</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img  src="img/quote-img.png" alt="quote">
+            <p>Beauty By Tee was actually referred to me and their services was top notch.</p>
+            <div class="girl"><img class="boy" src="img/IMG-20221130-WA0001.jpg" alt=""></div>
+            <h3>Lilian Oko</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+       </div>
+     </section>
+
+      <!-- reviews -->
+
+      <!-- footer -->
+       <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Find Us Here</h3>
+                <p>We are just a click away</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="http://wa.me/+2348108624615" class="fab fa-whatsapp"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            
+            <div class="box">
+                <h3>Contact us</h3>
+                <a href="http://wa.me/+2348108624615" class="link">+234 810 826 4615</a>
+                <a href="#" class="link">temitopeolamiji1982@gmail.com</a>
+            </div>
+            <div class="box">
+                <h3> Our Gratitude </h3>
+                <p>We are grateful for <br>
+                your patronage<br>
+                 We hope to see you another time</p>
+            </div>
+           <div class="credit"> created by <span> reny </span> all rights reserved!</div>
+        </div>
+       </section>
+
+
+      <!-- footer -->
+    <!-- custom js -->
+    <script src="script.js"></script>
+<body>
+    
+</body>
+</html>
